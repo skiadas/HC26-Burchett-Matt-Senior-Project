@@ -17,10 +17,12 @@ Running aspect examples: Strava
 - Good graphs and charts for running stats
 
 Mental Health and Wellness: Daylio, Bearable
+
 **Daylio**
 - Circles and things on the calendar. Take that and integrate with the Strava calendar.
 - Doesn't integrate fitness into it at all
 - Gives good overview with charts and graphs of mood but doesn't give high level insights
+
 **Bearable**
   - Super complex and not user-friendly
   - I like the weekly and monthly overview screen
