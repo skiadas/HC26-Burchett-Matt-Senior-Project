@@ -1,4 +1,4 @@
-# Random Notes
+# Overall Planning
 
 Mood & Running Task Tracker
 
