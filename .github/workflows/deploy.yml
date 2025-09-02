@@ -28,3 +28,6 @@ jobs:
     needs: build_docs
     name: Deploy Pages
     uses: actions/deploy-pages@v4
+    permissions: 
+      pages: write
+      id-token: write
