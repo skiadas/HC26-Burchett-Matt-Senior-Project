@@ -1,4 +1,4 @@
 ---
 ---
 
-[Overall Planning](./overall_planning.html)
+[Proposal](./proposal.md)

@@ -1,6 +1,6 @@
 ---
 ---
-# Overall Planning
+# Proposal
 
 Mood & Running Task Tracker
 
