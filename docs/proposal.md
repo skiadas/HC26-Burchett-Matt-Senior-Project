@@ -29,5 +29,21 @@ Mental Health and Wellness: Daylio, Bearable
   - Super complex and not user-friendly
   - I like the weekly and monthly overview screen
 
+## Technologies
+
+Platform- I will be targeting a web app platform. This appears to be the best thing to do with the time that I have.
+
+Programming Languages- JavaScript, SQL, HTML + CSS
+
+Frameworks/Libraries- 
+
+## Other
+
+Frontend → React + Tailwind (UI)
+
+Backend → Node.js + Express (API)
+
+Database → PostgreSQL (with Prisma ORM for developer happiness)
+
 ## Maybe
 Need to show personal correlations which none of these apps do. Take user data and be able to give them actual insights into how they feel and what they should do instead of just presenting them with raw data.
