@@ -54,7 +54,7 @@ I will be targeting a web app platform. This appears to be the best thing to do 
 - JSON Web Token (JWT) (auth system for login sessions) **MAYBE**
 - Recharts / Chart.js → for mood vs run/task data visualization.
 
-## Other
+## Deployment
 
 Frontend → React + Tailwind (UI)
 
