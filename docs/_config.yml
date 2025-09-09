@@ -11,3 +11,4 @@ plugins:
 #   math_engine: mathjax
 #   syntax_highlighter: rouge
 remote_theme: pages-themes/tactile@v0.2.0
+baseurl: /HC26-Burchett-Matt-Senior-Project 
