@@ -1,6 +1,7 @@
 ---
+layout: post
+title: Proposal
 ---
-# Proposal
 
 Mood & Running Task Tracker
 
