@@ -3,7 +3,7 @@ plugins:
   - jekyll-remote-theme
 lsi: false
 safe: true
-source: [your repo's top level directory]
+source: /workspaces/HC26-Burchett-Matt-Senior-Project/docs
 incremental: false
 highlighter: rouge
 gist:
@@ -11,4 +11,4 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: andrewbanchich/forty-jekyll-theme
