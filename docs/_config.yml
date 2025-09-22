@@ -1,13 +1,5 @@
 plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
-#lsi: false
-#source: /workspaces/HC26-Burchett-Matt-Senior-Project/docs
-#highlighter: rouge
-# gist:
-#   noscript: false
-# kramdown:
-#   math_engine: mathjax
-#   syntax_highlighter: rouge
 remote_theme: andrewbanchich/forty-jekyll-theme
 baseurl: /HC26-Burchett-Matt-Senior-Project/
