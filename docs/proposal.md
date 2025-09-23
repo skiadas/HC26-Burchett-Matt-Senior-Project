@@ -23,7 +23,7 @@ This app allows a user to track their running workouts along with their mood. It
 - Don't want the social aspect of Strava as I won't have enough time to integrate and learn about how that works.
 - Good graphs and charts for running stats.
 
-[Strava](https://www.strava.com/dashboard) [3] is one of the most popular running tracker apps out there. I personally use this and really like it. This picture of the training calendar is one that I am certainly going to attempt to take inspiration from because of the simplicity while also displaying information.
+[Strava](https://www.strava.com/dashboard) [3] is one of the most popular running tracker apps out there. According to [11], it states that strava is very good for tracking personal workouts and get valuable data about their fitness. However, this review makes no mention of tracking the mood or mental health of a person. I personally use Strava and really like it. This picture of the training calendar is one that I am certainly going to attempt to take inspiration from because of the simplicity while also displaying information. 
 
 ![Strava](pictures/Strava_calendar.png)
 
@@ -78,27 +78,27 @@ I am going to use *Flask* [5] because I already have experience with Python and 
 
 ### Hosting
 
-Frontend: I am going to host my frontend of *React* on Vercel [8] because of its ease of use with React, it is easy to integrate with Git, and I don't have to configure my own servers as it does this automatic. I chose Vercel over something like Netlify because it integrates better with React while still being great for frontend hosting.
+Frontend: I am going to host my frontend of *React* on Vercel [8] because of its *ease of use with React*, it is easy to integrate with Git, and I don't have to configure my own servers as it does this automatic. I chose Vercel over something like Netlify because it integrates better with React while still being great for frontend hosting.
 
-Backend: I chose to use Render [9] for my backend hosting because of its ease of support with Flask and Python integration. It also gives me the ability to host my database if I end up not liking Neon. I chose this over something like Heroku because Heroku limits you a lot with the free version, while Render gives me all the customization and options I may need with its free version.
+Backend: I chose to use Render [9] for my backend hosting because of its *ease of support* with Flask and Python integration. It also gives me the ability to host my database if I end up not liking Neon. I chose this over something like Heroku because Heroku limits you a lot with the free version, while Render gives me all the customization and options I may need with its free version.
 
-Database: Neon [10] was my choice to host my database because it is cloud-based and serverless which allows it to be scaled up and down automatically. It also looks easy to use and integrates well with SQLAlchemy and Flask. I am choosing Neon over something like Supabase because it is much lighter and simple. I don't need all of the extra stuff Supabase provides such as authenticating, storage, and API because of my use of Flask.
+Database: Neon [10] was my choice to host my database because it is **cloud-based and serverless** which allows it to be scaled up and down automatically. It also looks easy to use and integrates well with SQLAlchemy and Flask. I am choosing Neon over something like Supabase because it is much lighter and simple. I don't need all of the extra stuff Supabase provides such as authenticating, storage, and API because of my use of Flask.
 
 ### Package/ Dependency Manager
 
-My frontend dependency manager will be npm because it is the standard for react as it comes with Node.js. I am using npm over Yarn because it is simple and I don't have to make a bunch of extra decisions like I would with Yarn.
+My frontend dependency manager will be npm because it is the *standard for react* as it comes with Node.js. I am using npm over Yarn because it is simple and I don't have to make a bunch of extra decisions like I would with Yarn.
 
-I am using pip as my backend dependency manager because it is the default with python and it is also very simple and easy to use. I am choosing it over Poetry not only because it comes with Python but it also isn't as big of a learning curve as Poetry.
+I am using pip as my backend dependency manager because it is the *default with python* and it is also very simple and easy to use. I am choosing it over Poetry not only because it comes with Python but it also isn't as big of a learning curve as Poetry.
 
 ## Deployment / Distribution
 
 ### Frontend → React + Tailwind (UI) over plain HTML + CSS
 
-I am choosing to use *React* [4] because it allows me to use Javascript which is necessary to use for web browers. *Tailwind* allows me to customize my app in a simple way. I could have used plain HTML + CSS, but it appears that it gives me more code to manage and isn't as modern. Another reason I want to use React [4] is so I can actually learn how to use it because it is very popular in the real world and would be a good thing to know.
+I am choosing to use *React* [4] because it allows me to use Javascript which is necessary to use for web browers. *Tailwind* allows me to customize my app in a simple way. I could have used plain HTML + CSS, but it appears that it gives me more code to manage and isn't as modern. Another reason I want to use React [4] is so I can learn how to use it because it is very popular in the real world and would be a good thing to know for after I graduate.
 
 ### Backend → Choosing Flask over Node.js + Express
 
-I am going to use Flask [5] over the alternative Node.js and Express because of my experience with python and it will allow me to limit my use of Javascript to strictly UI stuff. Also, Flask [5] does very well with data-heavy features which I am going to have a lot of within this app. I am also able to easily integrate the Strava API that I want to use for bringing in running data.
+I am going to use Flask [5] over the alternative Node.js and Express because of my experience with python and it will allow me to *limit my use of Javascript to UI stuff*. Also, Flask [5] does very well with **data-heavy** features which I am going to have a lot of within this app. I am also able to easily integrate the Strava API that I want to use for bringing in running data.
 
 
 ### Database → PostgreSQL over MariaDB
@@ -106,22 +106,24 @@ I am going to use Flask [5] over the alternative Node.js and Express because of 
 I am going to use the PostgreSQL [7] over MariaDB because it works very well with the SQLAlchemy [6] that I want to use. PostgreSQL [7] also seems to handle large data better as well as working better with analytics which will be a key part of my project. It also handles advanced queries a bit better which could be key for the analytical side of my project.
 
 ## References
-[1] Bearable. [Online]. Available: https://bearable.app/
+[1] Bearable, “Bearable App,” 2025. [Online]. Available: https://bearable.app/.
 
-[2] Daylio. [Online]. Available: https://daylio.net/
+[2] Daylio, “Daylio Mood Tracker Journal,” 2025. [Online]. Available: https://daylio.net/.
 
-[3] Strava. [Online]. Available: https://www.strava.com/dashboard
+[3] Strava, “Strava Dashboard,” 2025. [Online]. Available: https://www.strava.com/dashboard.
 
-[4] Meta, “React Documentation,” ReactJS, 2025. [Online]. Available: https://react.dev/
+[4] Meta, “React Documentation,” ReactJS, 2025. [Online]. Available: https://react.dev/.
 
-[5] Pallets Projects, “Flask Documentation,” Flask, 2025. [Online]. Available: https://flask.palletsprojects.com/
+[5] Pallets Projects, “Flask Documentation,” Flask, 2025. [Online]. Available: https://flask.palletsprojects.com/.
 
-[6] SQLAlchemy, “SQLAlchemy Documentation,” SQLAlchemy, 2025. [Online]. Available: https://docs.sqlalchemy.org/
+[6] SQLAlchemy, “SQLAlchemy Documentation,” 2025. [Online]. Available: https://docs.sqlalchemy.org/.
 
-[7] PostgreSQL Global Development Group, “PostgreSQL 16 Documentation,” PostgreSQL, 2025. [Online]. Available: https://www.postgresql.org/docs/
+[7] PostgreSQL Global Development Group, “PostgreSQL 16 Documentation,” PostgreSQL, 2025. [Online]. Available: https://www.postgresql.org/docs/.
 
-[8] Vercel. [Online]. Available: https://vercel.com/
+[8] Vercel, “Vercel Hosting Platform,” 2025. [Online]. Available: https://vercel.com/.
 
-[9] Render. [Online]. Available: https://render.com/
+[9] Render, “Render Hosting,” 2025. [Online]. Available: https://render.com/.
 
-[10] Neon. [Online]. Available: https://neon.com/
+[10] Neon, “Neon Database Platform,” 2025. [Online]. Available: https://neon.com/.
+
+[11] M. Dustin, “Strava Fitness App Review (2025): A Powerful App for Activity Tracking,” Garage Gym Reviews, Nov. 4, 2024. [Online]. Available: https://www.garagegymreviews.com/strava-fitness-app-review.
