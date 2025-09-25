@@ -44,7 +44,7 @@ This app allows a user to track their running workouts along with their mood. It
 
 [Bearable](https://bearable.app/) [1] is the same as Daylio, it is a mobile app but provides good visualizations. 
 
-![Bearable](pictures/bearable.png)
+![Bearable](pictures/bearable.png){:width="300"}
 
 ## Technologies
 
