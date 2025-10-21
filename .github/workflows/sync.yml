@@ -15,6 +15,7 @@ jobs:
        - run: git status
        - run: git log --oneline
        - run: git remote add upstream https://github.com/Hanover-CS/HC26-Burchett-Matt-Senior-Project.git
-       - run: git pull --rebase upstream main
-       - run: git push --force
+       - run: git fetch upstream
+       - run: git rebase upstream/main
+       - run: git push --force origin main
        
