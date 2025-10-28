@@ -13,4 +13,6 @@ jobs:
      steps:
        - uses: actions/checkout@v4
        - uses: imba-tjd/rebase-upstream-action@master
+         with:
+           branch: main
        
