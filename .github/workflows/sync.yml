@@ -11,8 +11,9 @@ jobs:
        contents: write
 
      steps:
-       - uses: actions/checkout@v4
-       - uses: imba-tjd/rebase-upstream-action@master
-         with:
-           branch: main
+       - run: ls -la
+       - run: git status
+       - run: git remote -v
+       - run: git log --oneline
+       - run: git branch -v
        
