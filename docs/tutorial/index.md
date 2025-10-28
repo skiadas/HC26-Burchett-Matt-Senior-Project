@@ -1,7 +1,7 @@
 ---
+layout: post
+title: Index for SQLAlchemy Tutorial
 ---
-
-# Index for SQLAlchemy Tutorial
 
 By: Matt Burchett
 
