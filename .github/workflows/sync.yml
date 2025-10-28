@@ -11,10 +11,11 @@ jobs:
        contents: write
 
      steps:
-       - uses: actions/checkout@v4
        - run: git clone https://github.com/skiadas/HC26-Burchett-Matt-Senior-Project.git .
        - run: git status
        - run: git remote add upstream https://github.com/Hanover-CS/HC26-Burchett-Matt-Senior-Project.git
        - run: git fetch upstream
+       - run: git config --global user.email "skiadas@hanover.edu"
+       - run: git config --global user.name "Haris Skiadas"
        - run: git rebase upstream/main
        
