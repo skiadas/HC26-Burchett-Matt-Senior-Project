@@ -5,11 +5,13 @@
 
 By: Matt Burchett
 
+[Tutorial Introduction](./intro.md)
+
 [Setup for SQLAlchemy](./setup.md)
 
 [Defining Models and Relationships](./models.md)
 
-[CRUD Operations in Flask](./crud.md)
+[CRUD Operations in SQLAlchemy](./crud.md)
 
 [Practice Exercises](./practice.md)
 

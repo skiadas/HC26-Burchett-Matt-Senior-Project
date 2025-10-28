@@ -38,6 +38,8 @@ source venv/bin/activate      # On macOS/Linux
 venv\Scripts\activate         # On Windows
 ```
 
+---
+
 ## Step 2: Install Flask and Flask-SQLAlchemy
 
 Once your environment is active, install Flask and SQLAlchemy:
@@ -57,6 +59,8 @@ Flask            3.x.x
 Flask-SQLAlchemy 3.x.x
 SQLAlchemy       2.x.x
 ```
+
+---
 
 ## Step 3: Initialize Your Flask App
 Now create a file named app.py in your project directory.
@@ -91,6 +95,8 @@ Here, it creates a file named example.db in your project folder.
 - db = SQLAlchemy(app) initializes the database connection.
 - The / route simply returns a test message to verify everything works.
 
+---
+
 ## Step 4: Run the Application
 
 Start your Flask app by running:
@@ -109,4 +115,4 @@ Open that URL in your browser and you should see this message:
 
 Congratulations! You’ve successfully connected Flask with SQLAlchemy!
 
-To *continue* the tutorial go here: [Defining Models and Relationships](./models.md), or to go *back* to the index go here: [Index For SQLAlchemy](./index.md).
+To *continue* the tutorial go here: **[Defining Models and Relationships](./models.md)**, or to go *back* to the previous page go here: **[Tutorial Introduction](./intro.md)**.
